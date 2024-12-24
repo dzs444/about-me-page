@@ -9,7 +9,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #5f7e60;
+    background-color: #97bce1;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -38,14 +38,14 @@ main {
 button {
     padding: 10px 15px;
     font-size: 16px;
-    background-color: #5f7e60;
+    background-color: #97bce1;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #5f7e60;
+    background-color: #97bce1;
 }
 
 #greeting {
@@ -56,7 +56,7 @@ button:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #5f7e60;
+    background-color: #97bce1;
     color: white;
     text-align: center;
     padding: 10px;
