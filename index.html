@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addinna Syazsmin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Addinna Syazsmin</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Addinna Syazsmin, currently pursuing my Diploma in Information Technology 5th Semester at UNIRAZAK. I enjoy exploring new technologies, learning about cloud computing, and creating cool projects.</p>
+        </section>
+        <section id="projects">
+            <h2>My Hobbies & Interests</h2>
+            <ul>
+                <p>🎵 Singing & sleeping</p>
+                <p>🏸 Playing badminton, netball, & some e-sports</p>
+                <p>💻 Learning about Cloud Computing models or exploring coding</p>
+            </ul>
+        </section>
+        <section id="greeting">
+            <h2>Get a Personalized Greeting</h2>
+            <button id="greet-btn">Click for a Greeting</button>
+            <p id="greeting-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Feel free to contact me at: <a href="mailto:addinna@ur.unirazak.edu.my">addinna@ur.unirazak.edu.my</a></p>
+        <p>&copy; 2025 Addinna Syazsmin <3. All rights reserved.</p>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="greeting-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>What's your name?</h2>
+            <input type="text" id="name-input" placeholder="Enter your name">
+            <button id="submit-name-btn">Submit</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
